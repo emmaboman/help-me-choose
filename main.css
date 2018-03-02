@@ -14,7 +14,7 @@ h1 {
   margin-bottom: 0px;
 }
 
-.inputsection {
+.inputSection {
   margin: 50px 0px 80px 0px;
   width: 400px;
 }
@@ -43,5 +43,5 @@ button {
   justify-content: center;
   align-items: center;
   font-size: 35px;
-  
+
 }
