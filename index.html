@@ -7,13 +7,28 @@
   </head>
   <body>
     <h1>Help me choose between..</h1>
-    <div class="inputsection">
+    <div class="inputSection">
       <div class="inputs">
         <input placeholder="something"></input>
       </div>
-      <button class="addoption">Add</button>
+      <button class="addOption">Add</button>
     </div>
-    <button>go</button>
+    <div class="resultSection"></div>
+    <button>go!</button>
     <img src="https://i.pinimg.com/736x/18/9a/5d/189a5dc4ddeeeb2160cd5e67b0b25a57.jpg"/>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+    $(function() {
+      $('.resultSection').hide()
+
+      var add_option = function() {
+        $('.inputs').append('<input></input>')
+      }
+
+      $('.addOption').click(add_option)
+    })
+    </script>
+
   </body>
 </html>
